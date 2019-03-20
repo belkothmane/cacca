@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!-- 	<bean id="common_log4jInitializer" -->
+<!-- 		class="org.springframework.beans.factory.config.MethodInvokingFactoryBean"> -->
+<!-- 		<property name="targetClass" value="org.springframework.util.Log4jConfigurer" /> -->
+<!-- 		<property name="targetMethod" value="initLogging" /> -->
+<!-- 		<property name="arguments"> -->
+<!-- 			<list> -->
+<!-- 				<value>classpath:spring/log4j.xml</value> -->
+<!-- 			</list> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+
+<!--	<import resource="classpath:/it/carrefour/sic/sic-auth-context.xml" /> -->
+<!--	<import resource="classpath:/common-functions.xml" /> -->
+
+<!--  	<import resource="C:/Users/obelkaid/Desktop/workspace privato/start/src/main/webapp/WEB-INF/root-context.xml" /> -->
+
+</beans>
