@@ -36,10 +36,6 @@
 	<tx:annotation-driven/>
   	<task:annotation-driven/>
   	
-  	<http auto-config='true'>
-    	<intercept-url pattern="/**" access="ROLE_USER" />
-	</http>
-
 <!-- 	<bean id="common_log4jInitializer" -->
 <!-- 		class="org.springframework.beans.factory.config.MethodInvokingFactoryBean"> -->
 <!-- 		<property name="targetClass" value="org.springframework.util.Log4jConfigurer" /> -->
