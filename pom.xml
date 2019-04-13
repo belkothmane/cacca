@@ -70,7 +70,14 @@
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
 			<version>4.2.0.Final</version>
+			</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-web</artifactId>
+		   <version>3.0.4.RELEASE</version>
 		</dependency>
+					
 		<dependency>
 			<groupId>javax.validation</groupId>
 			<artifactId>validation-api</artifactId>
@@ -81,6 +88,12 @@
 			<artifactId>ehcache</artifactId>
 			<version>2.9.0</version>
 		</dependency>
+				<!-- https://mvnrepository.com/artifact/com.github.sebhoss/suppress-warnings -->
+<dependency>
+    <groupId>com.github.sebhoss</groupId>
+    <artifactId>suppress-warnings</artifactId>
+    <version>2.0.0</version>
+</dependency>
 
 		<dependency>
 			<groupId>xerces</groupId>
@@ -348,6 +361,12 @@
 					</archive>
 				</configuration>
 			</plugin>
+			
+			<plugin>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>2.0.1.Final</version>
+            </plugin>
 			
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
