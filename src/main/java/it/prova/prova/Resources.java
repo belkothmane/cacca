@@ -75,14 +75,14 @@ public class Resources
 
       // STARTUP OK
       Resources.logger.info(Resources.PROVA_LINE);
-      Resources.logger.info("|       PROVA BELKA BISO   R E S O U R C E S   L O A D E D   S U C C E S S F U L L Y        |");
+      Resources.logger.info("|       PROVA BELKA BISO GENU PERE   R E S O U R C E S   L O A D E D   S U C C E S S F U L L Y        |");
       Resources.logger.info(Resources.PROVA_LINE);
 
     } catch (final Exception e) {
       Resources.logger.error(" Resource Servlet Init failed " + e.getMessage(), e);
       // STARTUP KO
       Resources.logger.info(Resources.PROVA_LINE);
-      Resources.logger.info("|            PROVA BELKA BISO   R E S O U R C E S   L O A D I N G   F A I L E D            |");
+      Resources.logger.info("|            PROVA BELKA BISO GENU PERE   R E S O U R C E S   L O A D I N G   F A I L E D            |");
       Resources.logger.info(Resources.PROVA_LINE);
     }
 
